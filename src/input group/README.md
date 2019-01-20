@@ -5,6 +5,9 @@
     * `.input-group-prepend` 或者 `input-group-append`
         * 用`span`包裹`.input-group-text`
 ## wrapping
+
+[01 wrapping 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/01wrapping.html)
+
 * 为了在 input-group 之内成功的容纳自定义的表格,默认的是.flex-wrap
 * 可以手动设置.flex-nowrap
 
@@ -18,6 +21,9 @@
 ```
 
 ## sizing
+
+[02 sizing 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/02sizing.html)
+
 * 通过`.input-groput-*`控制输入框的大小,内容的大小也会跟着一起进行修改
     * `.input-group-sm`
     ```html
@@ -48,6 +54,9 @@
     ```
     
 ## checkbox 和 radio
+
+[03 checkbox 和 radio 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/03%20checkbox%20and%20%20radio.html)
+
 * 可以使用 checkbox 或者 radio 来代替 span 包裹的 text
     * checkbox 多选
     ```html
@@ -85,6 +94,9 @@
     </div>
     ```
 ## Multiple input
+
+[04 multiple input源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/04multiplr%20input.html)
+
 * 在且仅在`.input-group`中支持多个`input`标签分割样式
 ```html
 <div class="input-group">
@@ -96,6 +108,9 @@
 </div>
 ```
 ## Multiple addons
+
+[05 multiple addons 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/05%20multiple%20addons.html)
+
 * 不仅支持多个 input, 也支持多个 add-ons, 而且也能 text, checkbox 和radio 进行混合
 ```html
 <div class="container py-2 border">
@@ -124,6 +139,9 @@
 ```
 
 ## Button adons
+
+[06 button addon 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/06%20button%20addons.html)
+
 ```html
 <div class="input-group mb-3">
   <div class="input-group-prepend">
@@ -157,7 +175,34 @@
 ```
 
 ## dropdown button segment
+
+[07 dropdown button 源码 ](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/07%20dropdown%20button%20adons.html)
+
+* 可以使用下拉的 button
+
+```html
+<div class="input-group py-1 ">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu overflow-hidden bg-dark">
+            <a href="#" class="dropdown-item">Action1</a>
+            <a href="#" class="dropdown-item">Action2</a>
+            <a href="#" class="dropdown-item">Action3</a>
+            <!--role可以省略的-->
+            <div class="dropdown-divider" role="separator"></div>
+            <a href="#" class="dropdown-item">Another</a>
+        </div>
+    </div>
+    <input type="text" placeholder="Please input" class="form-control" aria-label="Text input with dropdown button">
+</div>
+```
+
+
+
 * 利用 multiple button 可以做到 segment 的效果
+
+[08 分割的可下拉的菜单的源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/08%20dropdown%20button%20segment.html)
+
 ```html
 <div class="input-group">
     <input type="text" class="form-control" placeholder="Please Input Here">
@@ -178,6 +223,9 @@
 
 ## Custom forms
 ### custom select
+
+[09 自定义 select 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/09%20custom%20selection.html)
+
 * `select`标签上使用`.custom-select`
 ```html
 <div class="input-group">
@@ -196,6 +244,9 @@
 ```
 
 ### custom upload
+
+[10 自定义 upload 源码](https://github.com/Xinsen-Zhang/bootstrap-/blob/master/src/input%20group/10%20custom%20file.html)
+
 * 把`.custom-file`放在包裹代码块上
     * 把`.custom-file-input`放在`input:file`上
     ```html
@@ -209,4 +260,6 @@
       </div>
     </div>
     ```
+
+
 
